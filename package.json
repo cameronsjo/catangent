@@ -12,8 +12,10 @@
     "test:run": "vitest run",
     "lint": "eslint src --ext .ts",
     "typecheck": "tsc --noEmit",
-    "gm": "tsx src/gm/index.ts",
-    "game": "tsx src/game/index.ts"
+    "gm": "tsx src/cli.ts demo",
+    "demo": "tsx src/cli.ts demo",
+    "play": "tsx src/cli.ts play",
+    "help": "tsx src/cli.ts help"
   },
   "keywords": [
     "catan",

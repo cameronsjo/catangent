@@ -15,3 +15,15 @@ export {
   type CheatType,
   type Severity,
 } from './rules/index.js'
+
+// OpenRouter client
+export * from './lib/index.js'
+
+// Agents
+export * from './agents/index.js'
+
+// Game Master
+export * from './gm/index.js'
+
+// Runner
+export { runGame, runDemoGame, createMockGameState, createMockClient } from './runner/index.js'
