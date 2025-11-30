@@ -15,6 +15,7 @@
     "gm": "tsx src/cli.ts demo",
     "demo": "tsx src/cli.ts demo",
     "play": "tsx src/cli.ts play",
+    "replay": "tsx src/cli.ts replay",
     "help": "tsx src/cli.ts help"
   },
   "keywords": [
