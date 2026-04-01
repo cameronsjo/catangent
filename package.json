@@ -1,0 +1,43 @@
+{
+  "name": "catangent",
+  "version": "0.1.0",
+  "description": "Multi-Agent Settlers of Catan with Information Asymmetry",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "dev": "tsup src/index.ts --format esm --watch",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "gm": "tsx src/cli.ts demo",
+    "demo": "tsx src/cli.ts demo",
+    "play": "tsx src/cli.ts play",
+    "replay": "tsx src/cli.ts replay",
+    "help": "tsx src/cli.ts help"
+  },
+  "keywords": [
+    "catan",
+    "multi-agent",
+    "llm",
+    "game",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "eslint": "^8.55.0",
+    "tsup": "^8.0.1",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.2",
+    "vitest": "^1.0.4"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
